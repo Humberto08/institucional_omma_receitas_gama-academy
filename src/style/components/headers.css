@@ -1,0 +1,42 @@
+header {
+    height: 132px;
+}
+
+header div {
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--primary-color);
+    z-index: 1000;
+    position: relative;
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+header nav {
+    background-color: var(--dark-primary-color);
+
+    height: 48px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+header nav a {
+    color: #fff;
+
+    margin: 0px 10px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: var(--ligth-primary-color);
+    transition: 0.4s;
+}
