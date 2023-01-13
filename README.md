@@ -16,7 +16,5 @@ Gama Experience hacker#48
 https://institucional-omma-receitas-gama-academy.vercel.app/
 
 
-## Demonstração
 
-https://institucional-omma-receitas-gama-academy.vercel.app/
 
