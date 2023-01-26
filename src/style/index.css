@@ -182,3 +182,96 @@ button {
     border-radius: 5px;
 }
 
+
+
+
+/* Responsividade*********/
+
+@media only screen and (max-width: 480px) {
+    /* opacity: 0; */
+
+    header {
+        /* opacity: 0; */
+
+        display: none;
+    }
+
+    #secao-receitas-com-afeto {
+        background-image: var('../../assets/images/receitas-com-afeto.png');
+        background-size: cover;
+
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    h1 {
+        position: static;
+
+        font-size: 3rem;
+    }
+
+    .show-nav {
+        display: block;
+
+        position: absolute;
+
+        top: 10px;
+        left: 20px;
+
+        background: 0;
+        border: 0;
+    }
+
+    .secao-generica h2 {
+        font-size: 1.6rem;
+
+        margin: 40px 0px;
+    }
+
+
+    #card-horizontal {
+        flex-direction: column;
+    }
+
+    #card-horizontal .card-receita {
+        margin-bottom: 30px;
+    }
+
+    #comer-e-viver {
+        position: relative;
+
+        top: 800px;
+        /* display: none; */
+
+        display: flex;
+
+        flex-direction: column;
+
+        background-image: url('../../assets/images/smartphones/comer-e-viver.png');
+        background-size: cover;
+
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #titulo-comer-e-viver {
+        position: static;
+
+        font-size: 3rem;
+    }
+
+    #comer-e-viver p {
+        position: static;
+
+        width: 90%;
+
+        margin-bottom: 10px;
+    }
+}
+
+
+}

@@ -18,6 +18,19 @@ a {
     text-decoration: none;
 }
 
+.row {
+    display: flex;
+}
+
+#nav-2 {
+    display: none;
+}
+
+.show-nav {
+    display: none;
+}
+
+
 :root {
     /**** cores ****/
     --dark-primary-color: #ffa000;
